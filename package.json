@@ -5,19 +5,29 @@
   "description": "my first electron app",
   "main": "main.js",
   "scripts": {
+    "lint": "standard",
+    "start": "electron main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fibo/hello-electron.git"
   },
-  "author": "",
+  "author": {
+    "name": "Gianluca Casati",
+    "url": "http://g14n.info"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/fibo/hello-electron/issues"
   },
   "homepage": "https://github.com/fibo/hello-electron#readme",
+  "pre-commit": [
+    "lint"
+  ],
   "devDependencies": {
-    "electron-prebuilt": "^0.36.2"
+    "electron-prebuilt": "^0.36.2",
+    "pre-commit": "^1.1.2",
+    "standard": "^5.4.1"
   }
 }
