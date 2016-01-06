@@ -1,0 +1,11 @@
+body {
+	/* TODO
+	 * use postcss or less and keep this value
+	 * in sync with main.js:BrowserWindow.height
+	 */
+	height: 800px;
+}
+
+#preview img {
+	height: 100px;
+}

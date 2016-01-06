@@ -6,6 +6,6 @@ my first electron app
 * main.js: implements the main process
 * app/: contains renderer processes files and code
 * app/index.html: main window view
-* app/index.js: main window logic
+* app/logic.js: main window logic
 * app/css/
 * app/img/
