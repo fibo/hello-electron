@@ -23,7 +23,13 @@ const appQuit = () => {
 // initialization and is ready to create browser windows.
 const appReady = () => {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+  mainWindow = new BrowserWindow({
+    'min-width': 400,
+    'min-height': 600,
+    width: 1060,
+    height: 800,
+    frame: true
+  })
 
   // and load the index.html of the app.
   mainWindow.loadURL('file://' + __dirname + '/index.html')
