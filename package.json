@@ -5,6 +5,7 @@
   "description": "my first electron app",
   "main": "main.js",
   "scripts": {
+    "watch": "webpack --progress --colors --watch",
     "webpack": "webpack",
     "lint": "standard",
     "postinstall": "npm run webpack",
