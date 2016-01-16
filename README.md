@@ -1,5 +1,11 @@
 # hello-electron
-my first electron app
+
+> my first electron app
+
+## Setup
+
+    npm install
+    npm start
 
 ## Files and folders
 
@@ -7,5 +13,7 @@ my first electron app
 * app/: contains renderer processes files and code
 * app/index.html: main window view
 * app/logic.js: main window logic
-* app/css/
-* app/img/
+* app/bundle.js: webpack output
+* app/bundle.js.map: webpack output source map
+* samples: sample images, ONLY CATS ARE ALLOWED
+
